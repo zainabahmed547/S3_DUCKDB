@@ -1,0 +1,10 @@
+sources:
+    - name: dlt_ingestion
+      database: dev 
+      schema: bronze 
+      tables:
+        - name: listings
+        - name: bookings
+          identifier: get_bookings
+        - name: hosts
+          identifier: get_hosts
