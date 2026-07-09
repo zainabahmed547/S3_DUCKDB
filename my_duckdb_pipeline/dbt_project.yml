@@ -17,7 +17,10 @@ models:
   my_duckdb_pipeline: 
     bronze:           
       +materialized: table
+      +schema: bronze
     silver:
       +materialized: table
+      +schema: silver
     gold:
       +materialized: table
+      +schema: gold

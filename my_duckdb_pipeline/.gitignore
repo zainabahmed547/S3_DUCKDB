@@ -10,3 +10,5 @@ profiles.yml
 .dlt/
 *.duckdb
 *.duckdb.wal
+reports/
+dashboard.py/

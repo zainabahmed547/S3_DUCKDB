@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="dev.duckdb" uuid="7ec680f0-93e2-4577-848a-063b8fa61319">
+    <data-source source="LOCAL" name="dev.duckdb" uuid="99eb883b-8e1e-4381-bd57-08ede472473b">
       <driver-ref>duckdb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.duckdb.DuckDBDriver</jdbc-driver>

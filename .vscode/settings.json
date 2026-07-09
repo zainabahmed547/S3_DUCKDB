@@ -1,0 +1,10 @@
+{
+    "dbt.dbtPythonPathOverride": "C:/Users/HP/AppData/Local/Programs/Python/Python313/python.exe",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.quickSuggestionsDelay": 300
+}

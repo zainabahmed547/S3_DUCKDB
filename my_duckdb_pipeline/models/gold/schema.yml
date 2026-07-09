@@ -1,0 +1,36 @@
+version: 2
+
+models:
+ - name: dim_listings
+   description: "Conformed dimension table of all Airbnb listings, enriched with host status attributes."
+   columns:
+    - name: listing_id
+      tests:
+        - unique
+        - not_null
+
+ -  name: fct_bookings
+    description: "Fact table containing individual booking events and calculated gross revenue."
+    columns:
+      - name: booking_id
+        tests:
+          - unique
+          - not_null
+      - name: listing_id
+        tests:
+          - relationships:
+              to: ref('dim_listings')
+              field: listing_id
+
+ -  name: fct_monthly_listing_performance
+    description: "Periodic snapshot fact table aggregating listing performance metrics on a monthly basis."
+    columns:
+      - name: monthly_performance_id
+        tests:
+          - unique
+          - not_null
+      - name: listing_id
+        tests:
+           - relationships:
+               to: ref('dim_listings')
+               field: listing_id

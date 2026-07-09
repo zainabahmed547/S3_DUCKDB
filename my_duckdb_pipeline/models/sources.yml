@@ -4,7 +4,8 @@ sources:
       schema: bronze 
       tables:
         - name: listings
+          identifier: bronze_listings
         - name: bookings
-          identifier: get_bookings
+          identifier: bronze_bookings
         - name: hosts
-          identifier: get_hosts
+          identifier: bronze_hosts
