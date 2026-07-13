@@ -49,7 +49,8 @@ A common misconception is that all monetary columns belong in fact tables. In th
 
 The final analytical layer is served via a high-performance Streamlit data application, querying pre-aggregated Gold metrics natively from the DuckDB instance.
 
-![Marketplace Performance Dashboard](images/dashboard_mockup.png)
+![Marketplace Performance Dashboard](images/dashboard1.png)(images/dashboard2.png)
+
 
 ### Key Features Evident in the Analytical Interface:
 * **Primary KPIs:** High-level metrics tracking Gross Revenue, Confirmed Booking counts, Platform Revenue, and Average Nightly Rates.
